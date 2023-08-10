@@ -1,0 +1,149 @@
+(node:10692) Warning: Using insecure HTTP parsing
+(Use `TestCafe Studio --trace-warnings ...` to show where the warning was created)
+ Running tests in:
+ - Microsoft Edge 115.0.1901.188 / Windows 10
+
+ New Fixture
+ Running tests in:
+ - Microsoft Edge 115.0.1901.188 / Windows 10
+
+ New Fixture
+ × Google Chrome
+
+   1) The specified selector does not match any element in the DOM tree.
+
+       > | Selector('#gdpr_agree_data')
+
+      Browser: Microsoft Edge 115.0.1901.188 / Windows 10
+
+         19 |        .pressKey('tab')
+         20 |        .typeText('#password', 'more@123')
+         21 |        .pressKey('tab')
+         22 |        .typeText('#password-confirm', 'more@123')
+         23 |        .click('#register')
+       > 24 |        .click('#gdpr_agree_data')
+         25 |        .click('#gdpr_agree_email')
+         26 |        .click(Selector('#content button').withText('Submit'))
+         27 |        .click(Selector('header div').withText('Home').nth(1))
+         28 |        .click('header .fas.fa-ellipsis-v.ellipsis')
+         29 |        .click(Selector('header span').withText('Logout'))
+
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:24:10)
+         at asyncGeneratorStep (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at _next (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:30:2)
+
+
+ × Google Chrome
+
+   1) The specified selector does not match any element in the DOM tree.
+
+       > | Selector('#gdpr_agree_data')
+
+      Browser: Microsoft Edge 115.0.1901.188 / Windows 10
+
+         19 |        .pressKey('tab')
+         20 |        .typeText('#password', 'more@123')
+         21 |        .pressKey('tab')
+         22 |        .typeText('#password-confirm', 'more@123')
+         23 |        .click('#register')
+       > 24 |        .click('#gdpr_agree_data')
+         25 |        .click('#gdpr_agree_email')
+         26 |        .click(Selector('#content button').withText('Submit'))
+         27 |        .click(Selector('header div').withText('Home').nth(1))
+         28 |        .click('header .fas.fa-ellipsis-v.ellipsis')
+         29 |        .click(Selector('header span').withText('Logout'))
+
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:24:10)
+         at asyncGeneratorStep (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at _next (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:30:2)
+
+
+ × Google Chrome 1
+
+   1) The specified selector does not match any element in the DOM tree.
+
+         | Selector('div')
+       > |   .withText('Session Mismatch')
+
+      Browser: Microsoft Edge 115.0.1901.188 / Windows 10
+
+         105 |            caretPos: 0
+         106 |        })
+         107 |        .pressKey('backspace')
+         108 |        .typeText('#password', '48')
+         109 |        .click('#login')
+       > 110 |        .click(Selector('div').withText('Session Mismatch'))
+         111 |        .click('#profile')
+         112 |        .click(Selector('#content a').withText('Edit'))
+         113 |        .click(Selector('#content a').withText('Change Password'))
+         114 |        .typeText('#inputCurrentPassword', 'Akanksha@48')
+         115 |        .pressKey('tab')
+
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:110:10)
+         at asyncGeneratorStep (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at _next (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+
+
+ × Google Chrome 1
+
+   1) The specified selector does not match any element in the DOM tree.
+
+         | Selector('div')
+       > |   .withText('Session Mismatch')
+
+      Browser: Microsoft Edge 115.0.1901.188 / Windows 10
+
+         105 |            caretPos: 0
+         106 |        })
+         107 |        .pressKey('backspace')
+         108 |        .typeText('#password', '48')
+         109 |        .click('#login')
+       > 110 |        .click(Selector('div').withText('Session Mismatch'))
+         111 |        .click('#profile')
+         112 |        .click(Selector('#content a').withText('Edit'))
+         113 |        .click(Selector('#content a').withText('Change Password'))
+         114 |        .typeText('#inputCurrentPassword', 'Akanksha@48')
+         115 |        .pressKey('tab')
+
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:110:10)
+         at asyncGeneratorStep (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at _next (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+
+
+ × Microsoft Edge
+
+   1) The specified selector does not match any element in the DOM tree.
+
+         | Selector('div')
+       > |   .withText('Session Mismatch')
+
+      Browser: Microsoft Edge 115.0.1901.188 / Windows 10
+
+         198 |        })
+         199 |        .click('#username')
+         200 |        .pressKey('backspace backspace backspace backspace backspace backspace backspace backspace backspace backspace backspace backspace backspace backspace backspace backspace')
+         201 |        .typeText('#username', 'akanksha1331976@gmail.com')
+         202 |        .pressKey('enter')
+       > 203 |        .click(Selector('div').withText('Session Mismatch'))
+         204 |        .click(Selector('header div').withText('Home'))
+         205 |        .click('header .fas.fa-ellipsis-v.ellipsis')
+         206 |        .click(Selector('header span').withText('Logout'))
+         207 |        .typeText('#username', 'Akanksha')
+         208 |        .click('#login')
+
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:203:10)
+         at asyncGeneratorStep (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at _next (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:1:37)
+         at <anonymous> (C:\Users\akank\TestCafeStudio\beta-deepthought-education\new-test-script.js:233:2)
+
+
+
+ 3/3 failed (2m 47s)
